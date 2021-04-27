@@ -19,7 +19,7 @@ header h1{
 #heading{
     border: 8px solid rgba(121, 123, 124, 0.829);
     color: #a24801;
-    font-size: 20px;
+    font-size: 30px;
     box-sizing: border-box;
     background-color:rgba(192, 192, 192, 0.877);
     box-shadow:0 1px 4px rgb(97, 95, 95);
@@ -34,7 +34,7 @@ textarea{
     border: 10px solid rgb(228, 228, 17);
     border-radius: 20px;
     background-color:rgba(194, 184, 95, 0.788);
-    color:white;
+    color:rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     padding:6px 8px;   
@@ -115,8 +115,20 @@ textarea{
             flex-direction:column;
             align-items:center;
         }
-            #main{
-                font-size:25px;
+            #heading{
+                font-size:20px;
             }
         }
   
+        @media screen and (max-width: 350px){
+    
+            .container{
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+                #heading{
+                    font-size:15px;
+                }
+            }
+      
