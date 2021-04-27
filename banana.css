@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body{
+    background-image: url(https://i.pinimg.com/originals/74/f5/f2/74f5f2cca70419f1d5047934c26e4810.jpg) ;
+    background-size: 1600px 1067px;
+    /* background-repeat: space; */
+    background-size: 100%;
+    padding: 1rem;
+    margin: auto;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: rgb(252, 255, 71); */
+}
+header h1{
+   margin: 12px;
+    text-align: center;
+
+}
+#heading{
+    border: 10px solid rgba(121, 123, 124, 0.829);
+    color: #a24801;
+    font-size: 45px;
+    box-sizing: border-box;
+    background-color:rgba(192, 192, 192, 0.877);
+    box-shadow:0 1px 4px rgb(97, 95, 95);
+    border-radius: 1rem;
+}
+
+textarea{
+    margin-top: 30px;
+    height:250px;
+    font-size:40px;
+    width:100%;
+    border: 10px solid rgb(228, 228, 17);
+    border-radius: 20px;
+    background-color:rgba(194, 184, 95, 0.788);
+    color:rgb(255, 255, 9);
+    padding:6px 8px;   
+    box-shadow:0 1px 7px rgb(235, 173, 5);
+}
+
+.container{
+    margin-top:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+
+.contain2{
+    margin: 0px 22px;
+    display:flex;
+    flex-direction: column;
+}
+
+#btn-translate{
+    margin-top: 30px;
+    border: 5px solid rgba(255, 0, 0, 0.952);
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgba(173, 64, 21, 0.883);
+    font-size:26px;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow:0 1px 7px white;
+}
+#btn-translate:hover{
+    background-color:rgba(236, 46, 46, 0.884);
+    
+    box-shadow:0 1px 12px rgb(121, 13, 13);
+}
+
+#outputText{
+    margin-top: 20px;
+    border: 5px solid rgba(5, 30, 68, 0.459);
+    border-radius: 5px;
+    background-color:rgba(128, 171, 197, 0.644);
+    margin-top:4px;
+    font-size:26px;
+    color:rgb(25, 25, 27);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+#output-here{
+    margin-top: 30px;
+    height:250px;
+    font-size:40px;
+    width:100%;
+    border: 10px solid rgba(9, 105, 129, 0.836);
+    border-radius: 20px;
+    background-color:rgba(115, 143, 150, 0.788);
+    color:rgb(9, 128, 224);
+    padding:6px 8px;   
+    box-shadow:0 1px 7px rgb(89, 92, 95);}
+
+    footer{
+        border: 5px solid black;
+        border-radius: 1rem;
+        margin-top: 100px;
+        text-align: center;
+        background-color: rgba(36, 32, 32, 0.856);
+        color: rgb(235, 212, 177);
+    }
+  
