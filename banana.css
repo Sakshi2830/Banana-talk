@@ -10,14 +10,16 @@ body{
     /* background-color: rgb(252, 255, 71); */
 }
 header h1{
+    display: flex;
+    flex-direction: column;
    margin: 12px;
     text-align: center;
 
 }
 #heading{
-    border: 10px solid rgba(121, 123, 124, 0.829);
+    border: 8px solid rgba(121, 123, 124, 0.829);
     color: #a24801;
-    font-size: 45px;
+    font-size: 20px;
     box-sizing: border-box;
     background-color:rgba(192, 192, 192, 0.877);
     box-shadow:0 1px 4px rgb(97, 95, 95);
@@ -32,7 +34,7 @@ textarea{
     border: 10px solid rgb(228, 228, 17);
     border-radius: 20px;
     background-color:rgba(194, 184, 95, 0.788);
-    color:rgb(54, 54, 7);
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     padding:6px 8px;   
@@ -91,7 +93,7 @@ textarea{
     border: 10px solid rgba(9, 105, 129, 0.836);
     border-radius: 20px;
     background-color:rgba(115, 143, 150, 0.788);
-    color:rgb(2, 35, 61);
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     padding:6px 8px;   
@@ -105,4 +107,16 @@ textarea{
         background-color: rgba(36, 32, 32, 0.856);
         color: rgb(235, 212, 177);
     }
+
+    @media screen and (max-width: 550px){
+    
+        .container{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+            #main{
+                font-size:25px;
+            }
+        }
   
